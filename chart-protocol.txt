@@ -1,0 +1,8 @@
+S.No. | Resources  | Address  Protocol | Param | Response or status code
+
+1.    | User Registration  | /register | POST | username,pwd (string) | 200 OK
+
+2.    | Store sentences | /store | POST | username, pwd, sentence (string) | 200 OK, 301 out of tockens, 302 out of pwd
+
+3.    | Retrive sentence | /retrive | GET | username, pwd | 200 OK, 301 out of tockens
+
